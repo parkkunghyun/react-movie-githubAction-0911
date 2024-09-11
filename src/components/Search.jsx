@@ -6,6 +6,7 @@ const Search = ({onSearch}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    
     onSearch(text)
   }
 
